@@ -1,0 +1,187 @@
+.tutedude-logo {
+  height: 70px;
+  width: 150px;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.nav-elements {
+  display: flex;
+  flex-direction: row;
+}
+.navbar {
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.top-container-two {
+  width: 50%;
+}
+.nav-el-1 {
+  display: none;
+}
+.nav-el-2 {
+  display: none;
+}
+.nav-el-3 {
+    color: white;
+    background-color: #800080;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: poppins;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+
+  
+.bg-card{
+    
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.referral-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.referral-card-one{
+    background-color: white;
+    border-radius: 30px;
+    align-items: center;
+    height: 20%;
+    margin: 2%;
+    text-align: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.referral-card-el{
+    display: flex;
+    flex-direction: column;
+}
+.referral-card-heading{
+    color: #800080;
+    font-family: Roboto;
+    text-align: center;
+    padding: 10px;
+}
+.referral-card-paragraph{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.withdraw-button{
+    color: white;
+    background-color: #800080;
+    border-radius: 10px;
+    margin: 20px;
+    border: 0px;
+    height: 30px;
+}
+
+.referral-card-two{
+    margin: 2%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.referral-card-two-heading{
+    color: #800080;
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.code-button{
+    border: solid 2px transparent;
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #fc8c03, #800080);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  box-shadow: 2px 1000px 1px #fff inset;
+width: 170px;
+height: 40px;
+
+}
+.card-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.icon-bg{
+    background-color: #d8d4d4;
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+    margin: 10px;
+}
+.mini-card{
+    display: flex;
+    flex-direction: row;
+    margin: 2%;
+}
+.mini-card-heading{
+font-size: 15px;
+font-weight: bold;
+
+}
+.heading{
+    color: #800080;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 20px;
+
+}
+@media screen and (min-width: 768px) {
+  .top-container-one {
+    width: 80%;
+  }
+
+  .nav-el-3 {
+    color: #800080;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: poppins;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: white;
+  }
+
+  .nav-el-1 {
+    color: #eeaeae;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: poppins;
+    font-size: 18px;
+    display: block;
+  }
+  .nav-el-2 {
+    color: #eeaeae;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: poppins;
+    font-size: 18px;
+    display: block;
+  }
+  .referral-card-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .referral-card-el{
+    display: flex;
+    flex-direction: row;
+}
+.card-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+}
+  
+}
